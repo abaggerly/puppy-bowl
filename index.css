@@ -1,0 +1,42 @@
+
+main {
+  display: flex;
+  margin: 3rem;
+  gap: 3rem;
+  justify-content: space-between;
+  max-width: 80rem;
+}
+.section1 {
+  max-width: 40vw;
+}
+
+
+li {
+  background-color: white;
+  display: flex;
+  list-style-type: none;
+  padding: 0.2rem;
+  justify-content: space-between;
+  border-style:dotted;
+  border-width: 0.2rem;
+  margin: 0.5rem;
+}
+
+li:hover {
+  background-color: lightblue;
+  border-style:double;
+
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+
+
