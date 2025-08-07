@@ -105,6 +105,7 @@ const newPuppyForm = () => {
      <div class="col-12">
     <label for="status" class="form-label">Status</label> 
         <select class ="form-select" name="status" required>
+            <option>Choose Status</option>
             <option value="bench">Bench</option>
             <option value="field">Field</option>
         </select>
